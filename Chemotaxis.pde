@@ -11,8 +11,7 @@ Bacteria [] colony;
    }
  }   
  void draw()   
- {    
-   //background(0);
+ {   
    background(random(250),random(250),random(250));
    for(int i = 0; i < colony.length; i ++)
    {
